@@ -1,0 +1,28 @@
+{
+  "name": "ispath",
+  "version": "1.0.0",
+  "description": "isPath is a Node.js package for validate path of Operating System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsan/isPath.git"
+  },
+  "keywords": [
+    "path",
+    "windows",
+    "linux",
+    "posix",
+    "validator",
+    "directory",
+    "file"
+  ],
+  "author": "Salvatore Santagati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salsan/isPath/issues"
+  },
+  "homepage": "https://github.com/salsan/isPath#readme"
+}
