@@ -1,12 +1,12 @@
-# isPath
-isPath is a Node.js package for validate if string is a Path of Operating System
+# ispathjs
+ispathjs is a Node.js package for validate if string is a Path of Operating System
 
 Current version support **Windows** and **Linux**
 
 ## Install
 
 ```bash
-npm i isPath
+npm i ispathjs
 ```
 ## Usage
 
@@ -44,7 +44,7 @@ npm i isPath
 # Example
 
 ```js
-const isPath = require('isPath');
+const isPath = require('ispathjs');
 
 const path = [
     "C:\\Documents\\Newsletters\\Summer2018.pdf",

@@ -1,6 +1,6 @@
 {
-  "name": "ispath",
-  "version": "1.0.0",
+  "name": "ispathjs",
+  "version": "1.0.1",
   "description": "isPath is a Node.js package for validate path of Operating System",
   "main": "index.js",
   "scripts": {
