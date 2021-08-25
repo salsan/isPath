@@ -12,7 +12,15 @@ npm i ispathjs
 
 >### **isPath()**
 >
->return true if path (absolute or relative ) is valid Linux or Windows otherwise false
+>return true if path is valid for Linux or Windows otherwise false
+
+>### **isPath.absolute()**
+>
+>return true if path is valid absolute path for Linux or Windows otherwise false
+
+>### **isPath.relative()**
+>
+>return true if path is valid relative path for Linux or Windows otherwise false
 
 >### **isPath.win32()**
 >
