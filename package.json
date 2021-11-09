@@ -4,7 +4,7 @@
   "description": "isPath is a Node.js package for validate path of Operating System",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/salsan/isPath/issues"
   },
-  "homepage": "https://github.com/salsan/isPath#readme"
+  "homepage": "https://github.com/salsan/isPath#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }
