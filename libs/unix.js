@@ -1,11 +1,11 @@
 function absolute(path) {
-  const re = /^(?!\/\/)(?:(?!\/[.\\/]+\/).)+(?<![\.])$/i;
+  const re = /^\/[^\\/](?!\.{1,2}($|\/))((?!\/[./](\/|$))\/?.)*\/?(?<!\/\.{1,1})$/i;
 
   return re.test(path);
 }
 
 function relative(path) {
-  const re = /^[^\\/]\.?\/?(?:\/?(?:\.{2}|.+)\/?)(?<!\/\.+\/?)$/i;
+  const re = /^.{1,2}\/(?:.{2}|\w)*$/i;
 
   return re.test(path);
 }
