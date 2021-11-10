@@ -4,7 +4,8 @@
   "description": "isPath is a Node.js package for validate path of Operating System",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint:fix": "eslint . --fix --ext .js"
   },
   "repository": {
     "type": "git",
