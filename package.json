@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/salsan/isPath#readme",
   "devDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^9.1.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
